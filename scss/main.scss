@@ -1,0 +1,59 @@
+
+@import "bootstrap/functions";
+@import "bootstrap/variables";
+
+//
+// Grid mixins
+//
+
+@import "bootstrap/mixins/breakpoints";
+
+
+// including variables and mixins
+@import "theme/variables";
+@import "theme/mixins";
+@import "theme/flexbox";
+@import "theme/reset";
+
+
+// Custom Scss 
+@import "theme/elements";
+@import "theme/header";
+@import "theme/home";
+@import "theme/about";
+@import "theme/courses";
+@import "theme/events";
+@import "theme/gallery";
+@import "theme/blog";
+@import "theme/contact";
+@import "theme/footer";
+
+
+.freeconsultation{
+    height: 600px;
+    width: 100%;
+    position: relative;
+    .card{
+        height: 100%;
+        width: 50%;
+        position: absolute;
+        right: 25%;
+        top: -75px;
+    }
+}
+
+.freeconsultation-functions{
+    padding: 10px 20px;
+    li{
+        text-align: center;
+        padding: 20px 20px;
+        font-size: 20px;
+        color:#000;
+        &:before{
+            content: "\f00c";
+            font-family: FontAwesome;
+            transform: scale(0.85);
+            padding: 0px 13px;
+        }
+    }
+}
