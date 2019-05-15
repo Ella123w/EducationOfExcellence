@@ -1945,7 +1945,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.3s ease 0s;
 }
 .header-top .header-top-left a:hover i {
-  color: #0d5509;
+  color: #fff;
 }
 .header-top .header-top-right {
   text-align: right;
@@ -2008,7 +2008,8 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 3px;
 }
 
-#header #logo h1 a, #header #logo h1 a:hover {
+#header #logo h1 a,
+#header #logo h1 a:hover {
   color: #000;
   padding-left: 10px;
   border-left: 4px solid #0d5509;
@@ -2032,7 +2033,8 @@ h1, h2, h3, h4, h5, h6 {
 # Navigation Menu
 --------------------------------------------------------------*/
 /* Nav Menu Essentials */
-.nav-menu, .nav-menu * {
+.nav-menu,
+.nav-menu * {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -2106,7 +2108,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu li:hover > a {
-  color: #0d5509;
+  color: #fff;
 }
 
 .nav-menu > li {
