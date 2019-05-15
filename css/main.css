@@ -2570,6 +2570,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 .search-course-area .search-course-left p {
   font-size: 12px;
+  color: #ffffff;
 }
 @media (max-width: 991px) {
   .search-course-area .search-course-left {
@@ -2605,7 +2606,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-top: 50px;
 }
 .search-course-area .details-content .single-detials span {
-  color: #0d5509;
+  color: #ffffff;
   font-size: 30px;
 }
 .search-course-area .details-content .single-detials h4 {
@@ -2614,6 +2615,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 .search-course-area .details-content .single-detials p {
   margin-bottom: 0px;
+  color: #fff;
 }
 @media (max-width: 991px) and (min-width: 768px) {
   .search-course-area .details-content .single-detials h4 {
@@ -2846,7 +2848,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-align: center;
   color: #fff;
 }
-.cta-one-area h1, .cta-one-area p {
+.cta-one-area h1,
+.cta-one-area p {
   position: relative;
 }
 .cta-one-area p {
@@ -4508,6 +4511,7 @@ dl.toggle.time-line:before {
 }
 .single-footer-widget ul li a:hover {
   color: white;
+  text-decoration: underline;
 }
 .single-footer-widget .bb-btn {
   color: #0d5509;
@@ -4595,7 +4599,7 @@ dl.toggle.time-line:before {
 }
 .footer-bottom .lnr,
 .footer-bottom a {
-  color: #0d5509;
+  color: #ffffff;
 }
 .footer-bottom .footer-social a {
   background: rgba(255, 255, 255, 0.1);
@@ -4614,6 +4618,10 @@ dl.toggle.time-line:before {
 }
 .footer-bottom .footer-social a:hover {
   background-color: #0d5509;
+}
+
+.footergroupname {
+  color: #fff;
 }
 
 /*-------- end footer Area -------------*/

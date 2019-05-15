@@ -1,4 +1,6 @@
 /* =================================== */
+
+
 /*  Homepage Styles
 /* =================================== */
 
@@ -6,13 +8,12 @@
     padding: 120px 0;
 }
 
-
 .alert-msg {
     color: #008000;
 }
 
 .primary-btn {
-    background:  $secondary-color;
+    background: $secondary-color;
     line-height: 42px;
     padding-left: 30px;
     padding-right: 30px;
@@ -58,16 +59,15 @@
     }
 }
 
-.primary-btn.wh{
-    background:$white;
-    color:$black;
+.primary-btn.wh {
+    background: $white;
+    color: $black;
     text-transform: uppercase;
-    &:hover{
-        background:$black;
-        color:$white;
+    &:hover {
+        background: $black;
+        color: $white;
     }
 }
-
 
 .primary-btn.squire {
     border-radius: 0px!important;
@@ -79,7 +79,7 @@
     }
 }
 
-.overlay{
+.overlay {
     position: absolute;
     left: 0;
     right: 0;
@@ -98,7 +98,9 @@
     }
 }
 
+
 /*-------- Start Banner Area ------------*/
+
 .banner-area {
     background: url(https://eoe.gipcl.org.uk/wp-content/uploads/2017/03/first-page5.jpg) right;
     background-size: cover;
@@ -136,9 +138,8 @@
             font-size: 32px;
         }
     }
-
     .primary-btn {
-        background-color:  $secondary-color;
+        background-color: $secondary-color;
         color: $white;
         font-weight: 600;
         font-size: 14px;
@@ -149,51 +150,52 @@
     }
 }
 
+
 /*-------- End Banner Area ------------*/
 
 
 /*-------- Start feature Area ------------*/
 
-.feature-area{
-    margin-top:-62px;
+.feature-area {
+    margin-top: -62px;
 }
 
-.single-feature{
-    text-align: center;    
-    .title{
-        background:rgba(#fff,.15);
-        padding:20px 0px;
+.single-feature {
+    text-align: center;
+    .title {
+        background: rgba(#fff, .15);
+        padding: 20px 0px;
         @include transition();
-        h4{
-            color:$white;
+        h4 {
+            color: $white;
         }
     }
-    .desc-wrap{
-        padding:20px;
+    .desc-wrap {
+        padding: 20px;
         background-color: rgb(255, 255, 255);
         box-shadow: 0px 10px 30px 0px rgba(153, 153, 153, 0.1);
-        a{
-            font-size:14px;
-            font-weight:600;
+        a {
+            font-size: 14px;
+            font-weight: 600;
             @include transition();
-            color:$black;
+            color: $black;
         }
     }
-    &:hover{
-        cursor:pointer;
-        .title{
-            background:$primary-color;
+    &:hover {
+        cursor: pointer;
+        .title {
+            background: $primary-color;
         }
-        .desc-wrap{
-            a{
-                color:$primary-color;
+        .desc-wrap {
+            a {
+                color: $primary-color;
             }
         }
     }
-    @media(max-width:991px){
-        margin-bottom:30px;
-        .title{
-            background:$primary-color;
+    @media(max-width:991px) {
+        margin-bottom: 30px;
+        .title {
+            background: $primary-color;
         }
     }
 }
@@ -204,84 +206,79 @@
 
 /*-------- Start popular-course Area ------------*/
 
-.popular-course-area{
+.popular-course-area {
     .owl-dots {
         text-align: center;
         bottom: 5px;
-        margin-top:40px;
+        margin-top: 40px;
         width: 100%;
         -webkit-backface-visibility: hidden;
         -moz-backface-visibility: hidden;
         -ms-backface-visibility: hidden;
         backface-visibility: hidden;
     }
-
     .owl-dot {
         height: 10px;
         width: 10px;
         display: inline-block;
-        background: rgba(127,127,127, 0.5);
+        background: rgba(127, 127, 127, 0.5);
         margin-left: 5px;
         margin-right: 5px;
         @include transition();
     }
-
     .owl-dot.active {
         @include transition;
-        background:$primary-color;
+        background: $primary-color;
     }
-
 }
 
-.single-popular-carusel{
-    .thumb-wrap{
-    }
-    .thumb{
-        overflow:hidden;
-        img{
-            width:100%;
+.single-popular-carusel {
+    .thumb-wrap {}
+    .thumb {
+        overflow: hidden;
+        img {
+            width: 100%;
             @include transition();
         }
     }
-    .meta{
+    .meta {
         margin-top: -26px;
         z-index: 2;
-        position: inherit; 
-        padding:0px 10px;  
-        p{
-            font-size:12px;
-            font-weight:300;
-            color:$white;
-            margin-bottom:0px;
-            .lnr{
-                margin:0px 5px;
+        position: inherit;
+        padding: 0px 10px;
+        p {
+            font-size: 12px;
+            font-weight: 300;
+            color: $white;
+            margin-bottom: 0px;
+            .lnr {
+                margin: 0px 5px;
             }
         }
-        h4{
-            color:$white;
+        h4 {
+            color: $white;
         }
-    } 
-    .details{
-        h4{
-            @include transition();
-            margin:20px 0px; 
-            &:hover{
-                color:$primary-color!important;
-            }
-        }
-    }  
-    @media(max-width:576px){
-        margin:15px;
     }
-    &:hover{
-        .thumb{
-            img{
-                transform:scale(1.1);
+    .details {
+        h4 {
+            @include transition();
+            margin: 20px 0px;
+            &:hover {
+                color: $primary-color!important;
+            }
+        }
+    }
+    @media(max-width:576px) {
+        margin: 15px;
+    }
+    &:hover {
+        .thumb {
+            img {
+                transform: scale(1.1);
             }
         }
     }
 }
-
 
 
 /*-------- End popular-course Area ------------*/
@@ -289,81 +286,83 @@
 
 /*-------- Start search-course Area ------------*/
 
-.search-course-area{
-    background:url(../img/s-bg.jpg) center;
-    background-size:cover;
-    .overlay-bg{
-        background:rgba(#002308,.8);
+.search-course-area {
+    background: url(../img/s-bg.jpg) center;
+    background-size: cover;
+    .overlay-bg {
+        background: rgba(#002308, .8);
     }
-    .search-course-left{
-        h1{
-            margin-bottom:20px;
-            @media(max-width:991px){
-                font-size:30px;
+    .search-course-left {
+        h1 {
+            margin-bottom: 20px;
+            @media(max-width: 991px) {
+                font-size: 30px;
             }
-        } 
-        p{
-            font-size:12px;
-        }   
-        @media(max-width:991px){
-            padding-top:120px;
-            margin-bottom:40px;
-        }   
+        }
+        p {
+            font-size: 12px;
+            color: #ffffff;
+        }
+        @media(max-width:991px) {
+            padding-top: 120px;
+            margin-bottom: 40px;
+        }
     }
-    .search-course-right{
-        background:rgba(#fff,.10);
-        .form-wrap{
-            padding:0px 40px;
-            .form-control{
-                margin-bottom:5px;
-                border-radius:0px;
-                padding: 0.675rem 0.75rem;                
-                font-size:13px;
-                font-weight:300;
+    .search-course-right {
+        background: rgba(#fff, .10);
+        .form-wrap {
+            padding: 0px 40px;
+            .form-control {
+                margin-bottom: 5px;
+                border-radius: 0px;
+                padding: 0.675rem 0.75rem;
+                font-size: 13px;
+                font-weight: 300;
             }
-            .current{
-                margin-left:-32px;
-                font-size:13px;
+            .current {
+                margin-left: -32px;
+                font-size: 13px;
             }
-            .form-select .nice-select .list .option{
-                padding-left:15px;
-            }            
-            .primary-btn{
-                width:100%;
-                margin-top:5px;
+            .form-select .nice-select .list .option {
+                padding-left: 15px;
+            }
+            .primary-btn {
+                width: 100%;
+                margin-top: 5px;
             }
         }
     }
-    .details-content{
-        margin-top:50px;
-        .single-detials{
-            span{
-                color:$primary-color;
-                font-size:30px;
+    .details-content {
+        margin-top: 50px;
+        .single-detials {
+            span {
+                color: #ffffff;
+                font-size: 30px;
             }
-            h4{
-                margin:20px 0px;
-                color:$white;
+            h4 {
+                margin: 20px 0px;
+                color: $white;
             }
-            p{
-                margin-bottom:0px;
+            p {
+                margin-bottom: 0px;
+                color: #fff;
             }
-            @media(max-width:991px) and (min-width:768px){
-                h4{
-                    font-size:12px;
+            @media(max-width:991px) and (min-width:768px) {
+                h4 {
+                    font-size: 12px;
                 }
-            }             
+            }
         }
     }
 }
+
 
 /*-------- End search-course Area ------------*/
 
 
 /*-------- Start upcoming-event Area -------------*/
 
-
-.active-upcoming-event-carusel{
+.active-upcoming-event-carusel {
     .owl-dots {
         display: inline-grid;
         -webkit-backface-visibility: hidden;
@@ -374,67 +373,63 @@
         left: 101%;
         top: 40%;
     }
-
     .owl-dot {
         height: 10px;
         width: 10px;
         display: inline-block;
-        background: rgba(127,127,127, 0.5);
+        background: rgba(127, 127, 127, 0.5);
         margin-left: 5px;
         margin-right: 5px;
-        margin-bottom:5px;
+        margin-bottom: 5px;
         @include transition();
     }
-
     .owl-dot.active {
         @include transition;
-        background:$primary-color;
-    } 
-    @media(max-width:1024px){
-        .owl-controls{
-            display:none;
+        background: $primary-color;
+    }
+    @media(max-width:1024px) {
+        .owl-controls {
+            display: none;
         }
-    }   
+    }
 }
 
-.single-carusel{
-    @media(max-width:576px){
-        margin:15px;
+.single-carusel {
+    @media(max-width: 576px) {
+        margin: 15px;
     }
-    h4{
-        margin-top:20px;
-        margin-bottom:20px;
+    h4 {
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
-    p{
-        margin-top:0px!important;
-        margin-bottom:0px;
+    p {
+        margin-top: 0px!important;
+        margin-bottom: 0px;
     }
-    .thumb{
-        overflow:hidden;
-        img{
+    .thumb {
+        overflow: hidden;
+        img {
             @include transition();
-            width:100%;
+            width: 100%;
         }
     }
-    .detials{
-        h4{
+    .detials {
+        h4 {
             @include transition();
-            &:hover{
-                color:$primary-color;
+            &:hover {
+                color: $primary-color;
             }
         }
-        p{
-            margin-top:20px;
+        p {
+            margin-top: 20px;
         }
     }
-    &:hover{
-        .thumb img{
-            transform:scale(1.05) rotate(-1.05deg);
+    &:hover {
+        .thumb img {
+            transform: scale(1.05) rotate(-1.05deg);
         }
     }
 }
-
-
 
 
 /*-------- End upcoming-event Area -------------*/
@@ -442,107 +437,95 @@
 
 /*-------- Start review Area -------------*/
 
-.review-area{
-    background:$offwhite;
-    h4{
-        color:$black;
+.review-area {
+    background: $offwhite;
+    h4 {
+        color: $black;
     }
-
-    .owl-carousel .owl-item img{
-        width:auto!important;
+    .owl-carousel .owl-item img {
+        width: auto!important;
     }
-
     .owl-dots {
         text-align: center;
         bottom: 5px;
-        margin-top:20px;
+        margin-top: 20px;
         width: 100%;
         -webkit-backface-visibility: hidden;
         -moz-backface-visibility: hidden;
         -ms-backface-visibility: hidden;
         backface-visibility: hidden;
     }
-
     .owl-dot {
         height: 10px;
         width: 10px;
         display: inline-block;
-        background: rgba(127,127,127, 0.5);
+        background: rgba(127, 127, 127, 0.5);
         margin-left: 5px;
         margin-right: 5px;
         @include transition();
     }
-
     .owl-dot.active {
         @include transition;
-        background:$primary-color;
-    }   
+        background: $primary-color;
+    }
 }
 
-
-.single-review{
-
-    .title{
-        margin:20px 0;
+.single-review {
+    .title {
+        margin: 20px 0;
     }
-    .star{
-        margin-left:30px;
+    .star {
+        margin-left: 30px;
         .checked {
             color: orange;
         }
     }
-
-    @media(max-width:414px){
-        padding:15px;
+    @media(max-width:414px) {
+        padding: 15px;
     }
+}
 
-}   
 
 /*-------- End review Area -------------*/
 
 
 /*-------- Start Latest blog Style   -------------*/
 
-.blog-area{
+.blog-area {}
 
-}
-
-.single-blog{
-
-    .thumb{
+.single-blog {
+    .thumb {
         overflow: hidden;
-        img{
-            width:100%;
+        img {
+            width: 100%;
             @include transition();
         }
     }
-    &:hover{
-        img{
-            transform:scale(1.1);
+    &:hover {
+        img {
+            transform: scale(1.1);
         }
-        h5{
-            color:$primary-color;
+        h5 {
+            color: $primary-color;
         }
     }
-    h5{
-        margin-bottom:12px;
+    h5 {
+        margin-bottom: 12px;
         @include transition();
-        border-bottom:1px solid #eee;
-        padding-bottom:20px;
+        border-bottom: 1px solid #eee;
+        padding-bottom: 20px;
     }
-    a{
-        color:$text-color;
+    a {
+        color: $text-color;
     }
-    .meta{
-        font-weight:400;
+    .meta {
+        font-weight: 400;
         text-align: left;
         margin-top: 40px;
     }
-
-    @media(max-width:991px){
-        margin-bottom:30px;
+    @media(max-width:991px) {
+        margin-bottom: 30px;
     }
-
     .details-btn {
         border: 1px solid #eee;
         width: 40px;
@@ -558,9 +541,9 @@
             text-transform: uppercase;
             @include flexbox();
         }
-        .lnr{
-            color:$black;
-            line-height:inherit;
+        .lnr {
+            color: $black;
+            line-height: inherit;
         }
         &:hover {
             width: 140px;
@@ -577,48 +560,51 @@
             background: $primary-color;
             box-shadow: 0px 10px 20px 0px rgba(60, 64, 143, 0.2);
         }
-    }   
+    }
 }
+
 
 /*-------- End Latest blog Style   -------------*/
 
+
 /*-------- Start Cta area Style   -------------*/
 
-.cta-one-area{
-    background:url(../img/cta-bg.jpg) center;
-    background-size:cover;
-    text-align:center;
-    color:$white;
-    h1,p{
-        position:relative;
+.cta-one-area {
+    background: url(../img/cta-bg.jpg) center;
+    background-size: cover;
+    text-align: center;
+    color: $white;
+    h1,
+    p {
+        position: relative;
     }
-    p{
-        max-width:670px;
-        margin:20px 0px; 
-        @media(max-width:576px){
-            padding:0% 5%;
-        }        
+    p {
+        max-width: 670px;
+        margin: 20px 0px;
+        @media(max-width: 576px) {
+            padding: 0% 5%;
+        }
     }
-    .overlay-bg{
-        background:rgba(#002308,.20);
+    .overlay-bg {
+        background: rgba(#002308, .20);
     }
 }
 
-.cta-two-area{
-    background:$primary-color;
-    padding:90px 0px;
-    .cta-left{
-        text-align:left;
-        h1{
-            color:$white;
+.cta-two-area {
+    background: $primary-color;
+    padding: 90px 0px;
+    .cta-left {
+        text-align: left;
+        h1 {
+            color: $white;
             font-weight: 700;
         }
     }
-    .cta-right{
-        text-align:right;
-        @media(max-width:991px){
-            text-align:left;
-            margin-top:20px;
+    .cta-right {
+        text-align: right;
+        @media(max-width: 991px) {
+            text-align: left;
+            margin-top: 20px;
         }
     }
 }
@@ -636,12 +622,12 @@
 
 .about-banner {
     background: url(https://eoe.gipcl.org.uk/wp-content/uploads/2017/03/first-page5.jpg) right no-repeat;
-    background-size:cover;
+    background-size: cover;
 }
 
-.course-banner{
+.course-banner {
     background: url(https://eoe.gipcl.org.uk/wp-content/uploads/2017/03/COURSE.jpg) right no-repeat;
-    background-size:cover;
+    background-size: cover;
 }
 
 .about-content {
@@ -668,5 +654,3 @@
 
 
 /*-------- End Common Page Style   -------------*/
-
-
