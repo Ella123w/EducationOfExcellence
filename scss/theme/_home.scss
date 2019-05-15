@@ -12,7 +12,7 @@
 }
 
 .primary-btn {
-    background: $primary-color;
+    background:  $secondary-color;
     line-height: 42px;
     padding-left: 30px;
     padding-right: 30px;
@@ -103,7 +103,7 @@
     background: url(https://eoe.gipcl.org.uk/wp-content/uploads/2017/03/first-page5.jpg) right;
     background-size: cover;
     .overlay-bg {
-        background-color: rgba(#04091e, .8);
+        background-color: rgba(#002308, .8);
     }
 }
 
@@ -138,13 +138,13 @@
     }
 
     .primary-btn {
-        background-color: $primary-color;
+        background-color:  $secondary-color;
         color: $white;
         font-weight: 600;
         font-size: 14px;
         &:hover {
             background-color: $white;
-            color:$primary-color;
+            color: $secondary-color;
         }
     }
 }
@@ -293,7 +293,7 @@
     background:url(../img/s-bg.jpg) center;
     background-size:cover;
     .overlay-bg{
-        background:rgba(#04091e,.8);
+        background:rgba(#002308,.8);
     }
     .search-course-left{
         h1{
@@ -600,7 +600,7 @@
         }        
     }
     .overlay-bg{
-        background:rgba(#04091e,.20);
+        background:rgba(#002308,.20);
     }
 }
 
